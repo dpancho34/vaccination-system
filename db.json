@@ -1,0 +1,102 @@
+{
+  "employee": [
+    {
+      "id": 1723336994,
+      "name": "Diego",
+      "lastName": "Pancho",
+      "email": "diego.pancho@gmail.com",
+      "userName": "dipa1723336994",
+      "password": 517800,
+      "birthday": "1988-04-06T02:28:24.156Z",
+      "address": "",
+      "phone": "",
+      "vaccinationState": true,
+      "role": "admin"
+    },
+    {
+      "id": 1719133579,
+      "name": "Dayanna",
+      "lastName": "Loor",
+      "email": "daya@gmail.com",
+      "userName": "dalo1719133579",
+      "password": 517801,
+      "birthday": "1992-06-25T02:11:54.000Z",
+      "address": "Av Lola Quintana",
+      "phone": "0986853627",
+      "vaccinationState": true,
+      "role": "employee"
+    },
+    {
+      "id": 1724652980,
+      "name": "Fabian",
+      "lastName": "Mora",
+      "email": "fabian.mora@hotmail.com",
+      "userName": "FaMo1724652980",
+      "password": 773205,
+      "birthday": "2022-09-21T02:28:24.156Z",
+      "address": "",
+      "phone": "",
+      "vaccinationState": false,
+      "role": "employee"
+    },
+    {
+      "id": 1745290648,
+      "name": "David",
+      "lastName": "Monteros",
+      "email": "david.m@outlook.com",
+      "userName": "DaMo1745290648",
+      "password": 339584,
+      "birthday": "2022-09-21T06:32:49.885Z",
+      "address": "",
+      "phone": "",
+      "vaccinationState": false
+    },
+    {
+      "id": 1726984536,
+      "name": "Xavier",
+      "lastName": "Alarcon",
+      "email": "xavi@gmail.com",
+      "userName": "XaAl1726984536",
+      "password": 258340,
+      "birthday": "2022-09-21T06:43:50.266Z",
+      "address": "",
+      "phone": "",
+      "vaccinationState": false
+    },
+    {
+      "id": 1726936537,
+      "name": "Daniel",
+      "lastName": "Fabiani",
+      "email": "fab@yahoo.com",
+      "userName": "DaFa1726936537",
+      "password": 726251,
+      "birthday": "1998-08-22T02:11:54.000Z",
+      "address": "Guayaquil y Esmeraldas",
+      "phone": "0983567289",
+      "vaccinationState": true
+    }
+  ],
+  "vaccine": [
+    {
+      "id": 1,
+      "employeeId": 1723336994,
+      "type": "Pfizer",
+      "vaccineDate": "2022-03-21T02:28:24.156Z",
+      "doseNumber": 3
+    },
+    {
+      "employeeId": 1719133579,
+      "type": "AstraZeneca",
+      "vaccineDate": "2022-05-18T02:11:54.000Z",
+      "doseNumber": 3,
+      "id": 2
+    },
+    {
+      "employeeId": 1726936537,
+      "type": "Sputnik",
+      "vaccineDate": "2021-08-10T02:11:54.000Z",
+      "doseNumber": 2,
+      "id": 3
+    }
+  ]
+}
